@@ -10,6 +10,10 @@ int main(void)
     LCD_4bit_Init();
     LCD_Clear();
 
+    LCD_WriteLongString("Testing wrapped line on LCD");
+    _delay_ms(5000);
+    LCD_Clear();
+
     LCD_WriteString("Count1:");
     LCD_Goto_Position(2,1);
     LCD_WriteString("Count2:");
@@ -18,7 +22,7 @@ int main(void)
     {
         int count1=0;
         int count2=1000;
-        for (count1 = 0;count1 < 1000; count1++)
+        for (count1 = 0; count1 < 1000; count1++)
         {
 
             //put an arrow next to highest value

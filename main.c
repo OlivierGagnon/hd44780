@@ -7,7 +7,6 @@
 int main(void)
 {
     HC4094Init();
-    TXInit();
     LCD_4bit_Init();
     LCD_Clear();
 

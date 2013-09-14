@@ -74,6 +74,7 @@ int main(void)
                 LCD_WriteString("    ");
             }
 
+			
             LCD_Goto_Position(2,9);
             LCD_WriteInt(count2);
             LCD_Goto_Position(1,9);

@@ -20,8 +20,10 @@ int main(void)
 
     while(1)
     {
+        
         int count1=0;
         int count2=1000;
+        //loop counts count1 up to 1000, and count2 down to 0
         for (count1 = 0; count1 < 1000; count1++)
         {
 

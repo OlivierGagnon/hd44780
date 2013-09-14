@@ -62,10 +62,10 @@ void LCD_WriteLongString(char* StringPtr)
 		StringPtr++;
 		counter++;
 		if (counter == 16) //if end of first line
-        {
-            //goto position 0, line 2
-            LCD_4bit_Cmd(0b10101000); //DDRAM address = 0x40
-        }
+        	{
+            		//goto position 0, line 2
+            		LCD_4bit_Cmd(0b10101000); //DDRAM address = 0x40
+        	}
 	}
 }
 
